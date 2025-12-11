@@ -18,21 +18,6 @@
 }
 
 @font-face {
-  font-family: christmasStar;
-  src: url(assets/MerryChristmasStar.ttf);
-}
-
-@font-face {
-  font-family: christmasFlake;
-  src: url(assets/MerryChristmasFlake.ttf);
-}
-
-@font-face {
-  font-family: christmasSparkle;
-  src: url(assets/ChristmasSparkle.ttf);
-}
-
-@font-face {
   font-family: amore;
   src: url(assets/Amore\ Christmas.otf);
 }
@@ -82,6 +67,11 @@ img {
     .people img {
       border-radius: 50%;
       border:1px solid #fff;
+    }
+
+    #end {
+      font-size: 75px;
+      color: maroon;
     }
 
 

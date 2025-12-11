@@ -7,8 +7,14 @@ const countArray = ["Grandma","Grandpa","Ashley","Brittney","Nathan","Stephanie"
 function pickRecipient(sourceArray, destinationArray) {
 
   if (sourceArray.length === 0) {
-    console.log("Source array is empty. No element to pick.");
-    return;
+    document.getElementById('top').hidden = true;
+    document.getElementById("end").hidden = false;
+    document.getElementById('choice').hidden = true;
+    for(let i=0; i < countArray.length; i++){
+      let div = countArray[i];
+      document.getElementById(div).hidden = true;
+    }
+    return
   }
 
   let randomIndex = Math.floor(Math.random() * sourceArray.length)
