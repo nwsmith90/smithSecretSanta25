@@ -1,0 +1,87 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: inline-block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+@font-face {
+  font-family: christmasStar;
+  src: url(assets/MerryChristmasStar.ttf);
+}
+
+@font-face {
+  font-family: christmasFlake;
+  src: url(assets/MerryChristmasFlake.ttf);
+}
+
+@font-face {
+  font-family: christmasSparkle;
+  src: url(assets/ChristmasSparkle.ttf);
+}
+
+@font-face {
+  font-family: amore;
+  src: url(assets/Amore\ Christmas.otf);
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background-image: url('assets/festive.gif');
+     background-size: 100%;
+    background-attachment:fixed;
+    background-repeat: repeat-y;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: amore;
+    font-size: 50px;
+    color: green;
+}
+
+.one {
+  color: red;
+}
+
+
+
+img {
+     text-align: center;
+     max-width: 320px;
+     max-height: 400px;
+}
+
+
+
+   
+
+   .execute{
+    padding-top: 20px;
+   }
+
+
+
+    .people {
+      border-radius: 50%;
+      position: relative;
+    }
+    .people img {
+      border-radius: 50%;
+      border:1px solid #fff;
+    }
+
+
